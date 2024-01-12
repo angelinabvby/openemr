@@ -1,0 +1,66 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall"
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build"
+    },
+    "dev-build": {
+      "name": "dev-build",
+      "command": "npm run dev-build"
+    },
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "gulp-build": {
+      "name": "gulp-build",
+      "command": "npm run gulp-build"
+    },
+    "gulp-watch": {
+      "name": "gulp-watch",
+      "command": "npm run gulp-watch"
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test"
+    },
+    "lint:js": {
+      "name": "lint:js",
+      "command": "npm run lint:js"
+    },
+    "lint:js-fix": {
+      "name": "lint:js-fix",
+      "command": "npm run lint:js-fix"
+    },
+    "test:js": {
+      "name": "test:js",
+      "command": "npm run test:js"
+    },
+    "test:js-coverage": {
+      "name": "test:js-coverage",
+      "command": "npm run test:js-coverage"
+    },
+    "stylelint": {
+      "name": "stylelint",
+      "command": "npm run stylelint"
+    },
+    "stylelint-fix": {
+      "name": "stylelint-fix",
+      "command": "npm run stylelint-fix"
+    }
+  }
+}
